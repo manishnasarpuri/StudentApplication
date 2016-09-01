@@ -5,6 +5,7 @@ Student Application
 2)	Below are the pre-requisites of the application
 
 a)	Oracle Database 10g and above
+
 b)	Tomcat
 
 3)	In oracle database we need to execute below scripts in which schema user you want, I have created the below inside the “system” user
@@ -23,9 +24,11 @@ CREATE TABLE STUDENT
 );
 
 b)	Student Sequence
+
 CREATE SEQUENCE STUDENT_SEQ INCREMENT BY 1 START WITH 1;
 
 c)	Insert scripts for the Student Table if required,
+
 Insert into STUDENT (ID,FIRSTNAME,LASTNAME) values (STUDENT_SEQ.nextval,'John','Rock');
 Insert into STUDENT (ID,FIRSTNAME,LASTNAME) values (STUDENT_SEQ.nextval,'Kul','Deep');
 Commit;
