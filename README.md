@@ -36,7 +36,9 @@ Commit;
 4)	We need to set the oracle database url, username and password inside the application.properties, currently the details are as per my local machine
 
 jdbc.url=jdbc:oracle:thin:@127.0.0.1:1521:xe
+
 jdbc.username=system
+
 jdbc.password=system
 
 5)	 When we build and deploy the application in Tomcat below are the Rest API which has been exposed
