@@ -1,4 +1,5 @@
 Student Application
+
 1)	It’s a student application which will perform the basic operations like create,read,delete for a student and it’s a Maven project
 
 2)	Below are the pre-requisites of the application
